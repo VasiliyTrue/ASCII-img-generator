@@ -5,7 +5,12 @@ import './LoadingPopup.module.css';
 const LoadingPopup = () => {
 	return (
 		<div className={Classes.popup}>
-			<div className={Classes['lds-ellipsis']}></div>
+			<div className={Classes['lds-ellipsis']}>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
 		</div>
 	);
 };
