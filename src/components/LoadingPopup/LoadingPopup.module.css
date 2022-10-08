@@ -6,6 +6,10 @@
 	right: 0;
 	background: rgba(70, 57, 57, 0.747);
 	z-index: 9;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .lds-ellipsis {
